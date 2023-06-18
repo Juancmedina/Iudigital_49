@@ -13,3 +13,22 @@ li{
     background-color:#04AA6D;
     color: white;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+}
+
